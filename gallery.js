@@ -42,7 +42,7 @@ galleryItems.forEach(function (item) {
 
   // Create <img> element for the thumbnail image
   var thumbnailImage = document.createElement("img");
-  thumbnailImage.src = "images/" + item.smallImage;
+  thumbnailImage.src =   item.smallImage;
   thumbnailImage.alt = "";
   thumbnailImage.width = 240;
   thumbnailImage.height = 160;
@@ -55,7 +55,7 @@ galleryItems.forEach(function (item) {
       var imageDescription = document.getElementById("image-description");
 
       // Set the source and alt attributes of the featured image
-      featuredImage.src = "images/" + item.largeImage;
+      featuredImage.src =  item.largeImage;
       featuredImage.alt = "";
 
       // Set the image title and description in the <figcaption>
