@@ -1,0 +1,3 @@
+#thumbnail-list img:not(.active) {
+  filter: grayscale(100%);
+}
